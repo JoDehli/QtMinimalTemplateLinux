@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Start",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/helloworld",
+            "args": [
+                "all"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "/usr/bin/cmake",
+            "visualizerFile": "/home/jdehli/.config/Code/User/workspaceStorage/9b20096c018c5df98990a7279962a140/tonka3000.qtvsctools/qt.natvis.xml"
+        }
+    ]
+}
